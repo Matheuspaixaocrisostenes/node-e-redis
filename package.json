@@ -1,0 +1,33 @@
+{
+  "name": "e-redis",
+  "version": "1.0.0",
+  "description": "Projeto feito na digital innovation one",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheuspaixaocrisostenes/node-e-redis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheuspaixaocrisostenes/node-e-redis/issues"
+  },
+  "homepage": "https://github.com/Matheuspaixaocrisostenes/node-e-redis#readme",
+  "dependencies": {
+    "bull": "^3.20.0",
+    "bull-board": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17",
+    "password-generator": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
+}
